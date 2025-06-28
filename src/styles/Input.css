@@ -11,14 +11,14 @@
     color:black;
 }
 
-input, button{
+.text-bar, button{
     padding: 5px;
     border-radius: 5px;
     border: none;
 }
 
-input{
-    width:50%;
+.text-bar{
+    width: 50%;
     margin: 10px;
     padding: 10px;
 }
@@ -27,4 +27,5 @@ button{
     border: #fffbeb solid 1px;
     background-color: transparent;
     color: white;
+    cursor: pointer;
 }
