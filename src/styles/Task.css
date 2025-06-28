@@ -1,0 +1,15 @@
+.task{
+    border: #fffbeb solid 1px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 15px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+label{
+    padding: 20px;
+}

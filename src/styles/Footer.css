@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.footer > p{
+    margin: 20px;
+}
