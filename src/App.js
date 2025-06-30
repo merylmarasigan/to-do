@@ -52,8 +52,8 @@ function App() {
         {/* {tasks.map((t) => {
           return <Task name={t}/>
         })} */}
-        {tasks.map((task) => {
-          return <Task name={task.title}/>
+        {tasks.map((task,idx) => {
+          return <Task key={task.id} name={task.title} id={task.id}/>
         })}
         {/* <div className='test'>
           <input type='checkbox'></input>

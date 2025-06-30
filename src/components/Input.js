@@ -22,7 +22,7 @@ const Input = () => {
             setFormError(null)
         }
 
-        navigate('/')
+        //navigate('/')
     } 
     return (
         <div className='input'>
